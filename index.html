@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Feliz Dia dos Namorados ❤️</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #ffb6c1, #ffe4e1);
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #d6336c;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin-bottom: 30px;
+    }
+
+    img {
+      width: 250px;
+      border-radius: 20px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      margin-bottom: 30px;
+    }
+
+    button {
+      background-color: #d6336c;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1rem;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background-color: #c2185b;
+    }
+
+    #surpresa {
+      display: none;
+      margin-top: 30px;
+      font-size: 1.3rem;
+      color: #6a1b9a;
+    }
+  </style>
+</head>
+<body>
+  <h1>Feliz Dia dos Namorados, meu amor! 💖</h1>
+  <p>
+    Hoje é um dia especial para celebrar tudo o que somos. Obrigado por ser minha inspiração, meu carinho diário, e o sorriso que ilumina meu mundo. Te amo mais do que palavras podem dizer.
+  </p>
+  <img src="DIa dos namorados.jpeg" alt="Coração com flores">
+  <br>
+  <button onclick="mostrarSurpresa()">Ver surpresa 💌</button>
+
+  <div id="surpresa">
+    💌 Você é o melhor presente que a vida me deu. Estou ansioso(a) por cada dia ao seu lado. Vamos comemorar este amor todos os dias! ❤️
+  </div>
+
+  <script>
+    function mostrarSurpresa() {
+      document.getElementById("surpresa").style.display = "block";
+    }
+  </script>
+</body>
+</html>
